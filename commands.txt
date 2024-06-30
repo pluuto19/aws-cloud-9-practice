@@ -1,0 +1,9 @@
+yum | grep 'search'
+yum search maven
+sudo yum install maven
+mvn -v
+yum search corretto
+sudo yum install java-1.8.0-amazon-corretto.x86_64
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64
+export PATH=/usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/:$PATH
+java -version
